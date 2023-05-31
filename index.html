@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>contentMedia</title>
+        <link rel="icon" href="./favicon.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="./index.css" type="text/css"/>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="soumya dey"/>
+        <meta name="description" content="practice html page containing media conent"/>
+    </head>
+    <body>
+
+        <main>
+            <h1>Media contents</h1>
+
+            <section class="logo">
+                <table>
+                    <tr>
+                        <td><img src="./image.jpeg" alt="page logo" height="150px" width="150px"/></td>
+                        <td>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#media">Media Section</a></li>
+                                <li><a href="#dsa">DSA video</a></li>
+                                <li><a href="#os">OS video</a></li>
+                                <li><a href="#web">WEB DEV video</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="about">
+                <h2>About Section</h2>
+                <p>
+                    This the about section of the page.<br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, voluptate deserunt veniam adipisci cumque illum nihil necessitatibus dolor itaque doloremque odit eos esse magnam vitae! In deleniti consequuntur nam ex totam fugit tempora molestiae officia alias maiores amet quo, facere accusantium voluptatum laudantium, labore sed iure magnam adipisci vitae voluptas!
+                </p>
+            </section>
+
+            <section id="media">
+                <h2>Media section</h2>
+
+                <div>
+                    <h3>audio</h3>
+                    <audio src="./music.mp3" controls></audio>
+                </div>
+
+                <div>
+                    <h3>video</h3>
+                    <video src="./video.mp4" controls height="500px" width="500px"></video>
+                </div>                              
+            </section>
+
+            <!-- in this section i have use ifame tag to render external document in my web page-->
+            <section id="dsa">
+                <h2>DSA videos</h2>
+                <table>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/f6UU7V3szVw?autoplay=1&mute=1" loading="lazy" ></iframe></td><!-- use of iframe tag is to render external document in our web page-->
+                        <td><iframe src="https://www.youtube.com/embed/enI_KyGLYPo?autoplay=1&mute=1" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/F5MZyqRp_IM?autoplay=1&mute=1" loading="lazy" ></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/iKGAgWdgoRk?autoplay=1&mute=1" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/Z8svOqamag8?autoplay=1&mute=1" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/zg5v2rlV1tM?autoplay=1&mute=1" loading="lazy" ></iframe></td>
+                    </tr>
+                </table>
+            </section>
+            
+            <section id="os">
+                <h2>OS videos</h2>
+                <table>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/a1l4MceYHaQ" loading="lazy" allowfullscreen></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/LBqNWOqSzBA" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/iAnEvdCya6M" loading="lazy" ></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/kHMXP_i6zew" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/lo8Z61qCDqQ" loading="lazy" ></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/nAr2sLiLDWw" loading="lazy" ></iframe></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="web">
+                <h2>Web Developement videos</h2>
+                <table>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/Vi9bxu-M-ag" loading="lazy" allowfullscreen></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/aRUhd1Wd3Sw" loading="lazy" allow="fullscreen"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/ofHYRdWQESo" loading="lazy" allow="fullscreen"></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/0gU-qrq3gjU" loading="lazy" allow="fullscreen"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/KdWPGqT5GwE" loading="lazy" allow="fullscreen"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/e1X3WPoETsk" loading="lazy" allow="fullscreen"></iframe></td>
+                    </tr>
+                </table>
+
+            </section>
+
+        </main>
+
+        <footer>
+            &copy; soumya dey.
+        </footer>
+
+    </body>
+</html>
